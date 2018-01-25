@@ -27,7 +27,7 @@ class ShoppingCart extends Component {
 
   render() {
     return (
-      <Panel header="Shopping Cart">
+      <Panel header="Carrito de Compras">
         <Table fill>
           <tbody>
             {this.state.cart.map(product =>
