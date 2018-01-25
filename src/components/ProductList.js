@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Glyphicon } from 'react-bootstrap';
 import store from '../store';
-import categories from '../../categories';
 
 const styles = {
   products: {
