@@ -1,7 +1,6 @@
 {
   "name": "redux-example",
   "version": "1.0.0",
-  "description": ,
   "main": "app.js",
   "dependencies": {
     "react": "^15.4.0",
