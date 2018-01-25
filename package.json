@@ -1,0 +1,22 @@
+{
+  "name": "redux-example",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "app.js",
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "react-scripts": "^0.8.5",
+    "react-toggle": "^4.0.2",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC"
+}
