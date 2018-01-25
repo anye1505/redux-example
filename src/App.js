@@ -6,6 +6,15 @@ import Category from './components/Category';
 import './App.css';
 import data from '../categories';
 
+//alert("valor.... ", data.length)
+
+/*for (var i = 0; i <= 3; i++) {
+  alert(data[i].name)
+
+    for (var j = 0; j <= data[i].sublevels.length-1; j++) {
+      alert(data[i].sublevels[j].name)
+  }
+}*/
 class App extends Component {
   render() {
     return (
@@ -25,10 +34,10 @@ class App extends Component {
               <Category name={data[2].name} items={[data[2].sublevels[0].name,data[2].sublevels[1].name]}/>
               <Category name={data[3].name} items={[data[3].sublevels[0].name,data[3].sublevels[1].name]}/>
             </Col>
-            <Col sm={6}>
+            <Col sm={5}>
               <ProductList />
             </Col>
-            <Col sm={4}>
+            <Col sm={3}>
               <ShoppingCart />
             </Col>
           </Row>
