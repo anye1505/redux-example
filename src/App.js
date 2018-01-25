@@ -6,15 +6,6 @@ import Category from './components/Category';
 import './App.css';
 import data from '../categories';
 
-//alert("valor.... ", data.length)
-
-/*for (var i = 0; i <= 3; i++) {
-  alert(data[i].name)
-
-    for (var j = 0; j <= data[i].sublevels.length-1; j++) {
-      alert(data[i].sublevels[j].name)
-  }
-}*/
 class App extends Component {
   render() {
     return (

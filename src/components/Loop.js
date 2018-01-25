@@ -5,16 +5,11 @@ import Category from './Category';
 var rows = [];
 var i;
 for (i = 0; i < data.length; i++) {
-  rows.push(<Category key{i}/>);
+  rows.push(<Category name={data[i].name} items={data[i].sublevels.name}/>);
 }
 class Loop extends Component {
   render() {
     return (rows);
-      /*<Category name={data[0].name} items={['Gaseosas','Con azúcar','Sin azúcar']}/>
-      <Category name="Desayunos" items={['Fake 1','Fake 1','Fake 1']}/>
-      <Category name="Almuerzos" items={['Fake 1','Fake 1','Fake 1']}/>
-      <Category name="Vinos" items={['Fake 1','Fake 1','Fake 1']}/>
-    );*/
   }
 }
 
